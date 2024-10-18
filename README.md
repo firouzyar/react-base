@@ -32,20 +32,29 @@ Ensure you have the following installed:
 
 2. Install the dependencies:
 
-npm install
+   ```bash
+   npm install
+   ```
+
 Running the Application
 In the project directory, you can run:
 
 ## Running the Application
 
+```bash
 npm start
+```
+
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
+```bash
 npm run build
+```
+
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -56,28 +65,44 @@ Your app is ready to be deployed!
 
 To run ESLint and Prettier, use the following command:
 
+```bash
 npm run lint
+```
+
 This will lint the code according to the defined ESLint rules. If you want to automatically fix some of the issues, you can run:
 
+```bash
 npm run lint:fix
+```
+
 This command will fix the fixable issues in your code.
 
 ## Testing
 
 To run tests, use the following command:
 
+```bash
 npm test
+```
 
 ## Using Docker
 
 To run the app in development mode with Docker:
 
 Build and run the app using Docker Compose:
+
+```bash
 docker-compose up
+```
+
 This will start the app at http://localhost:3000 with hot-reloading enabled.
 
 To run the app in production mode with Docker:
 
 Build and run the app using the production setup:
+
+```bash
 docker-compose -f docker-compose.prod.yml up --build
+```
+
 The app will be served at http://localhost using NGINX.
