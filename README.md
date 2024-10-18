@@ -25,7 +25,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-base.git
+   git clone https://github.com/firouzyar/react-base.git
    cd react-base
 
    ```
